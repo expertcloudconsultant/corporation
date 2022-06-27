@@ -14,3 +14,7 @@ variable "corp" {
 variable "env" {
   default = ["prod", "staging", "dev"]
 }
+
+variable "locations" {
+  default = ["uksouth", "ukwest", "eastus", "westeurope"]
+}
