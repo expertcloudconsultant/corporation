@@ -1,3 +1,5 @@
+
+
 #Create Locations - Availability Zones
 variable "avzs" {
   default = ["uksouth", "ukwest", "eastus", "westeurope"]
@@ -9,14 +11,10 @@ variable "corp" {
   default = "corporate"
 }
 
-
-#Load  Balancer Constructs
-variable "private_ip" {
-  default = "10.20.0.100"
+variable "env" {
+  default = ["prod", "staging", "dev"]
 }
 
-
-
-variable "env" {
-  default = "Static"
+variable "locations" {
+  default = ["uksouth", "ukwest", "eastus", "westeurope"]
 }
